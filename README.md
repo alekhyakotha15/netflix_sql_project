@@ -137,12 +137,12 @@ order by count(type) desc
 **Objective:** To identify which genre has most content in Netflix
 
 ### 10) List all movies that are documentaries
-### some are combination of documentary and other genre.
+#### some are combination of documentary and other genre.
 ```
 select * from dbo.netflix_titles where listed_in like '%Documentaries%
 ```
 
-### Alone documentaries 
+#### Alone documentaries 
 ```
 select show_id,title,type,listed_in from dbo.netflix_titles
 where listed_in like 'Documentaries
