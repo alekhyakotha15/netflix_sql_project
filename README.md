@@ -24,9 +24,9 @@ The data for this project is collected from Kaggle dataset:
 
 ### 1) Counting the Number of movies and Tv shows
 
-'''select type,count(type) as Total_Number from dbo.netflix_titles
+```select type,count(type) as Total_Number from dbo.netflix_titles
 group by type
-order by count(type)'''
+order by count(type)```
 
 **Objective:** To Determine the distribution of Content in Netflix.
 
